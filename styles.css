@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mouse+Memoirs&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+h1{
+    font-size: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.row-spacing{
+    padding: 20px 100px;
+}
+/*HEADER-1*/
+
+
+.header-1{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+}
+
+.logo{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolders;
+    color: black;
+    background-color: beige;
+    margin:0px 10px;
+}
+
+.logo:hover{
+    color:green;
+}
+
+.header-1 .search-box-division{
+    display: flex;
+}
+
+.header-1 .search-box-division #search-box{
+    color:#333;
+    text-transform: none;
+    border-radius: 5px;
+}
+
+.header-1 .search-box-division button{
+    color: white;
+    background-color: black;
+    margin-right: 20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.header-1 .search-box-division button:hover{
+    background-color: green;
+}
+
+/*HEADER-2*/
+
+
+.header-2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+    background-color: white;
+    box-shadow: 0 .5 1rem black;
+    position: relative;
+}
+.nav-item{
+    font-size: 1.5 rem;
+    padding:20px;
+}
+
+.nav-item:hover{
+    background-color:rgb(180, 219, 238);
+    
+}
+.header-2 .icons{
+    font-size: 1.5rem;
+    padding:2px 2px;
+    margin: 20px;
+}
+
+/*HOME PAGE*/
+
+
+.title-image{
+    height:500px;
+    padding:0px;
+    margin: 0px;
+}
+
+#home{
+    background-color: rgb(30, 22, 22);
+    color: white;
+    object-fit: fill;
+}
+
+.home-text{
+    padding-top: 150px;
+    padding-left:100px;
+    padding-bottom: 150px;
+    padding-right: 0px;
+}
+
+.big-heading{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    color: white;
+}
+
+.small-heading{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 2.5rem;
+    color:beige;
+}
+
+/*BANNER SECTION*/
+
+.banner{
+    border:0px;
+    margin-top: 20px;
+    padding:20px;
+}
+.banner:hover{
+    transform: scale(1.2);
+}
+.card-title{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.card-text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding: 0px 20px;
+}
+
+.check-out{
+    margin-left: 20px;
+}
+
+/*CATEGORY SECTION*/
+
+
+.category-column{
+    padding:3% 2%;
+
+}
+
+.card-header{
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-align: center;
+    color: bisque;
+    font-weight: 500;
+}
+.img-category{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.offer{
+    color: darkslategrey;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*LATEST PRODUCTS*/
+
+.products-row-spacing{
+    padding:10px 20px;
+    margin:10px 100px 20px 100px;
+}
+
+.product-column{
+    padding:10px 20px;
+}
+
+
+.discount-tag{
+    background-color: rgb(170, 232, 170);
+    color: green;
+    position:absolute;
+    top:1rem;
+    left:1rem;
+    font-weight: 300;
+}
+
+.icons{
+    position:absolute;
+    top:.5rem;right:1rem;
+}
+
+.product-icon{
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    line-height: 1.5rem;
+    margin-top: .7rem;
+    border-radius: 100%;
+}
+
+.product-icon:hover{
+    background-color:rgb(84, 167, 84);
+    color: white;
+}
+.strike{
+    color:grey;
+    font-size: 15px;
+}
+
+.quantity{
+    padding-bottom: 20px;
+}
+
+.add-to-cart{
+    height: 75%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 300;
+}
+
+/*CONTACT SECTION*/
+
+#contact {
+	background: rgb(230, 189, 189);
+	color: #fff;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Lato', Arial, sans-serif;
+	margin:0;
+	padding:0;
+	padding-bottom:60px;
+}
+
+
+/* Form CSS*/
+.ccform {
+    margin: 0 auto;
+    width: 800px;
+}
+.ccfield-prepend{
+	margin-bottom:10px;
+	width:100%;
+}
+
+.ccform-addon{
+	color:rgb(153, 83, 83); 
+	float:left;
+	padding:8px;
+	width:8%;
+	background:#FFFFFF;
+	text-align:center;	
+    font-size: 14px;
+}
+
+.ccformfield {
+	color:#000000; 
+	background:#FFFFFF;
+	border:none;
+	padding:15.5px;
+	width:91.9%;
+	display:block;
+	font-family: 'Lato',Arial,sans-serif;
+	font-size:14px;
+}
+
+.ccformfield {
+	font-family: 'Lato',Arial,sans-serif;
+}
+.ccbtn{
+	display:block;
+	border:none;
+	background:rgb(153, 83, 83);
+	color:#FFFFFF;
+	padding:12px 25px;
+	cursor:pointer;
+	text-decoration:none;
+	font-weight:bold;
+    margin-left:50%;
+}
+.ccbtn:hover{
+	background:rgb(93, 72, 72);
+
+}
+
+
+/*NEWSLETTER SECTION*/
+.newsletter{
+    background: url(images/newsletter-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin:20px 0px;
+}
+
+.subscribe{
+    font-size: 3rem;
+    color: black;
+    font-family:'Mouse Memoirs', sans-serif; ;
+}
+.box{
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin: 1rem auto;
+    padding:1rem;
+    background-color: rgba(2, 13, 2, 0.29);
+    font-size: 1rem;
+}
+
+.subscribe-btn{
+    margin-top: none;
+    float:right;
+    background-color: black;
+}
+.subscribe-btn:hover{
+    background-color: rgb(48, 7, 7);
+}
+
+/*FOOTER*/
+
+.footer-logo{
+    color:black;
+    padding: auto;
+    font-size: 2rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+.share{
+    padding: 0;
+    line-height: 1.5rem;
+}
+
+.links{
+    padding:1rem 0;
+}
+
+.footer-link{
+    display: block;
+    padding:0.5rem 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+/*MEDIA-QUERIES*/
+
+@media(max-width:768px){
+    #menu-bar{
+        display: initial;
+    }
+    .box{
+        width: 50%;
+        align-items: left;
+    }
+}
